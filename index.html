@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio web</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>ChatGPT, el chat conversacional de IA</h1>
-        <img src="https://i.blogs.es/9d8740/chatgpt/1366_2000.webp" width="800" height=650">
+        <img src="https://i.blogs.es/9d8740/chatgpt/1366_2000.webp" width="500" height="350">
     </header>
 
     <hr/>
 
     <main>
-        <section>
-        <h2>¿Qué es ChatGPT?</h2>
+        <section id="seccion">
+        <h2 class="title">¿Qué es ChatGPT?</h2>
             <article>
                 <p>Desde su lanzamiento a finales de 2022, ChatGPT ha generado sensación en el mundo tech, siendo comparado con la experiencia de descubrir internet por primera vez. 
                     Este chatbot utiliza el modelo de lenguaje de Inteligencia Artificial GPT, con versiones como GPT-3.5 y GPT-4. Aunque se ha elogiado por su comprensión, 
@@ -32,9 +34,9 @@
             </article>
         </section>
         <section>
-        <h2>Cómo puedes usar ChatGPT</h2>
+        <h2 class="title">Cómo puedes usar ChatGPT</h2>
             <article>
-                <img src="https://i.blogs.es/3c60c4/captura-de-pantalla-2022-12-07-a-las-14.05.48/1366_2000.webp" width="800" height="500">
+                <img src="https://i.blogs.es/3c60c4/captura-de-pantalla-2022-12-07-a-las-14.05.48/1366_2000.webp" width="700" height="400">
                 <p> <strong>Quieres probar el ChatGPT, estás de enhorabuena porque puedes hacerlo gratis</strong> y sin necesidad de pertenecer a un segmento determinado – por ejemplo, 
                     prensa o investigación –: cualquiera puede hacerlo.
 
@@ -44,7 +46,7 @@
                     Una vez la tengas, entra a ella y escribe lo que desees la barra que encontrarás en el inferior de la pantalla. Aunque veas que la interfaz está en inglés, 
                     puedes escribirle en tu idioma, por ejemplo en castellano o en euskera.
                 </p>
-                <div>
+                <div id="lista">
                     <p>Aquí tienes algunas de las ventajas clave:</p>
                     <ol>
                         <li><strong>Conversación Natural:</strong> ChatGPT es capaz de generar respuestas que se asemejan a la forma en que las personas escriben y hablan, lo que facilita la interacción y la comprensión.</li>
@@ -59,6 +61,20 @@
                         <li><strong>Experimentación y Desarrollo:</strong> Desarrolladores pueden experimentar con ChatGPT para crear aplicaciones innovadoras y explorar nuevas formas de interacción humano-máquina.</li>
                     </ol>
                 </div>
+                <div id="cards-container">
+                    <div class="cards">
+                        <h4 class="titulogo">Logo 1</h4>
+                        <img src="https://www.designmantic.com/blog/wp-content/uploads/2023/04/ChatGPT-750x300.jpg" class="logo">
+                    </div>
+                    <div class="cards">
+                        <h4 class="titulogo">logo 2</h4>
+                        <img src="https://www.shutterstock.com/image-vector/openai-chatgpt-logo-vector-editorial-260nw-2335625577.jpg" class="logo" >
+                    </div>
+                    <div class="cards">
+                        <h4 class="titulogo">Logo 3</h4>
+                        <img src="https://cronica.tech/wp-content/uploads/2023/09/chat-gpt-estadisticas-cifras-uso.webp" class="logo">
+                    </div>
+                </div>               
             </article>
         </section>    
     </main>        
@@ -66,8 +82,8 @@
     <hr/>    
 
     <footer>
-        <span><a href="https://www.xataka.com/basics/chatgpt-que-como-usarlo-que-puedes-hacer-este-chat-inteligencia-artificial">Visita esta Web para ampliar información...</a></span>
-        <span><a href="https://chat.openai.com/">ChatGPT - Oficial</a></span>
+        <span><a href="https://www.xataka.com/basics/chatgpt-que-como-usarlo-que-puedes-hacer-este-chat-inteligencia-artificial" target="_blank">Visita esta Web para ampliar información...</a></span>
+        <span><a href="https://chat.openai.com/" target="_blank">ChatGPT - Oficial</a></span>
     </footer>
    
 </body>

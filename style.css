@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(71, 89, 172);
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    margin: 20px;
+    
+
+}
+.title{
+    font-size: 2.5em;
+}
+#lista{
+    font-style: italic;
+    font-size: 1em;
+}
+#seccion{
+    /*border: 3px solid black;*/
+    /* viewport width */
+    width: 50vw;  
+    margin: auto;  
+    padding: 2em; 
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 1em;
+}
+.titulogo{
+    font-size: 1.5em;
+    color: rgb(7, 64, 110);
+}
+.logo{
+    width: 300px;
+}
+.cards{
+    border: 2px solid black;
+    width:fit-content;
+    padding: 1em 1em 1.5em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.cards:hover{
+    background-color: rgb(11, 14, 172);
+}
+#cards-container{
+    background-color: rgb(137, 168, 236);
+    width: 80vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+
+}
